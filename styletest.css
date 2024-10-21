@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.img1, .img2,.img3,.img4,.img5,.img6,.img7,.img8 ,.img9{
+
+  background-position: center;
+  border: saddlebrown solid 1px;
+}
+
+.img1{
+  background-image: url(/images/image1.jpg);
+  width: 60%;
+  height: 100%;
+}
+.img2{
+  background-image: url(/images/image2.jpg);
+}
+.img3{
+  background-image: url(/images/image3.jpg);
+}
+.img4{
+  background-image: url(/images/image4.jpg);
+}
+.img5{
+  background-image: url(/images/image5.jpg);
+}
+.img6{
+  background-image: url(/images/image6.jpg);
+}
+.img7{
+  background-image: url(/images/image7.jpg);
+}
+.img8{
+  background-image: url(/images/image8.jpg);
+}
+.img9{
+  background-image: url(/images/image9.jpg);
+}
+
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}

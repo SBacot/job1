@@ -1,0 +1,72 @@
+
+ /*RESPONSIVE*/
+
+ @media screen and (max-width: 1360px) {
+   .box{
+    flex-wrap: wrap;
+   }
+ }
+
+ @media screen and (max-width: 1090px) {
+    .boxcards{
+        width: 100%;
+        flex-wrap:wrap;
+        height: 10%;
+        justify-content: center;
+
+    }
+
+    .cards{
+        width:35%;
+        margin: 2%;
+    }
+
+    .card{
+        margin:2%;
+        height:34vh
+    }
+    
+    .container p{
+        font-size: smaller;
+    }
+ }
+ 
+ @media screen and (max-width: 950px) {
+  
+    .card{
+        width: 40%;
+    }  
+
+    .box{
+        width: 100%;
+    }
+ 
+    
+ }
+ 
+ @media screen and (max-width: 750px) {
+  
+    .navbar{
+        font-size: 18px;
+    }
+
+   
+    .banner img{
+        margin-top: 15%;
+    }
+    .none{
+        display: none;
+    }
+  
+    .card{
+        width: 60%;
+    }  
+
+    .dispnone{
+        display: block;
+    }
+
+
+ 
+    
+ }
